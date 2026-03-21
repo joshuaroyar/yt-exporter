@@ -1,0 +1,16 @@
+{
+  "name": "yt-exporter",
+  "version": "1.0.0",
+  "description": "Script to pull metadata of videos in bulk",
+  "license": "GPL-3.0",
+  "author": "",
+  "type": "module",
+  "main": "script.js",
+  "scripts": {
+    "export": "node script.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "googleapis": "^171.4.0"
+  }
+}
